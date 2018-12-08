@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#999191">
+
+    <LinearLayout
+        android:layout_marginBottom="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/logoToletApp"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/log"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="17sp"
+            android:text="Phone Number"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="#ffffff"
+            android:id="@+id/PhoneNumberEditTextId"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#fcf6f6"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+       android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:hint="Password"
+            android:layout_marginRight="15dp"
+            android:id="@+id/passWordEditTextId"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:textColorHint="#ffffff"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:inputType="textPassword"
+            android:backgroundTint="#fcf6f6"/>
+        <Button
+            android:id="@+id/forgetPasswordBtn"
+            android:layout_margin="10dp"
+            android:text="Forgot Password?"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:textSize="12sp"
+            android:background="#999191"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/logInButtonId"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="20dp"
+            android:textColor="#fbfbfb"
+            android:text="LOGIN"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

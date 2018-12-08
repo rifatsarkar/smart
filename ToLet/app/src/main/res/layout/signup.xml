@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#999191">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/first_name_etxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:hint="First Name"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:backgroundTint="#fcf6f6"/>
+
+        <EditText
+            android:id="@+id/last_name_etxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:backgroundTint="#fcf6f6"/>
+
+        <EditText
+            android:id="@+id/email_etxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:backgroundTint="#fcf6f6"/>
+        <EditText
+            android:id="@+id/phoneNumber_etxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:hint="PhoneNumber"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:backgroundTint="#fcf6f6"/>
+
+        <EditText
+            android:id="@+id/password_etxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:backgroundTint="#fcf6f6"/>
+        <EditText
+            android:id="@+id/ConfirmPassword_etxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:hint="Confirm Password"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:backgroundTint="#fcf6f6"/>
+
+        <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:orientation="horizontal">
+             <RadioButton
+                 android:id="@+id/male_R_btn"
+                 android:layout_margin="10dp"
+                 android:text="Male"
+                 android:textSize="18sp"
+                 android:textColor="#ffffff"
+                 android:layout_gravity="center_horizontal"
+                 android:textAllCaps="false"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="30dp"/>
+
+             <RadioButton
+                 android:id="@+id/female_R_btn"
+                 android:text="Female"
+                 android:textSize="18sp"
+                 android:textColor="#ffffff"
+                 android:layout_gravity="center_horizontal"
+                 android:textAllCaps="false"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 />
+
+
+         </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/signUpHereButtonId"
+                android:background="@drawable/rounded_button"
+                android:textColor="#ffffff"
+                android:text="SIGNUP"
+                android:textSize="15sp"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

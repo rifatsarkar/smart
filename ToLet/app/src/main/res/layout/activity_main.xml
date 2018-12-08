@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/mha"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5px"
+            android:paddingTop="10px">
+
+            <Button
+                android:id="@+id/post"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:backgroundTintMode="screen"
+                android:text="Post Your Ads" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="239dp"
+            android:layout_marginLeft="239dp"
+            android:layout_marginTop="4dp">
+
+            <Button
+                android:id="@+id/SignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTintMode="screen"
+                android:text="Sign In"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="141dp"
+            android:layout_height="117dp"
+            android:layout_marginTop="60dp">
+
+            <ImageView
+                android:id="@+id/Bed"
+                android:layout_width="118dp"
+                android:layout_height="94dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/bed" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="159dp"
+            android:layout_height="117dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="217dp"
+            android:layout_marginLeft="217dp"
+            android:layout_marginTop="67dp">
+
+
+            <ImageView
+                android:id="@+id/Hostel"
+                android:layout_width="118dp"
+                android:layout_height="94dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/images" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="133dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="188dp">
+
+
+            <ImageView
+                android:id="@+id/Sublet"
+                android:layout_width="118dp"
+                android:layout_height="94dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/sss" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="159dp"
+            android:layout_height="131dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="217dp"
+            android:layout_marginLeft="217dp"
+            android:layout_marginTop="194dp">
+
+
+            <ImageView
+                android:id="@+id/Flat"
+                android:layout_width="128dp"
+                android:layout_height="89dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/flat" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="133dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="337dp">
+
+
+            <ImageView
+                android:id="@+id/Office"
+                android:layout_width="118dp"
+                android:layout_height="94dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/office" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="159dp"
+            android:layout_height="131dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="217dp"
+            android:layout_marginLeft="217dp"
+            android:layout_marginTop="344dp">
+
+
+            <ImageView
+                android:id="@+id/Commercial"
+                android:layout_width="128dp"
+                android:layout_height="89dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/commer"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
